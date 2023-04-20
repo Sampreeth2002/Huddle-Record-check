@@ -56,22 +56,15 @@ export default function Home() {
           {JSON.stringify(state.value)}
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
+          <div className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0">
             <Image
-              src="/vercel.svg"
+              src="https://huddle01-assets-frontend.s3.amazonaws.com/Logo/community.png"
               alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
+              width={250}
+              height={100}
               priority
             />
-          </a>
+          </div>
         </div>
       </div>
 
