@@ -15,7 +15,7 @@ import {
   useMeetingMachine,
 } from "@huddle01/react/hooks";
 
-export default function Home() {
+const Room = () => {
   // roomId logic
   const [roomId, setRoomId] = useState("");
   const router = useRouter();
@@ -150,4 +150,6 @@ export default function Home() {
       </div>
     </main>
   );
-}
+};
+
+export default Room;
