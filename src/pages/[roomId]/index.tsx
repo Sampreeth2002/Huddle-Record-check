@@ -292,9 +292,10 @@ const Room = () => {
         <div>
           <Button
             disabled={!startRecording.isCallable}
-            onClick={() =>
-              startRecording(`${window.location.href}rec/${roomId}`)
-            }
+            onClick={() => {
+              console.log(`https://${window.location.host}/rec/${roomId}`);
+              startRecording(`https://${window.location.host}/rec/${roomId}`);
+            }}
           >
             startRecording()
           </Button>
