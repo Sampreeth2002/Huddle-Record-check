@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const { initialize } = useHuddle01();
 
   useEffect(() => {
-    initialize(process.env.NEXT_PUBLIC_PROJECT_ID as string);
+    initialize("KL1r3E1yHfcrRbXsT4mcE-3mK60Yc3YR");
   }, []);
 
   return (

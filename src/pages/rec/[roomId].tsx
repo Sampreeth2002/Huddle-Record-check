@@ -43,7 +43,7 @@ const Room = () => {
     if (camStream && videoRef.current) videoRef.current.srcObject = camStream;
   });
 
-  useRecorder(roomId, process.env.NEXT_PUBLIC_PROJECT_ID || "");
+  useRecorder(roomId, "KL1r3E1yHfcrRbXsT4mcE-3mK60Yc3YR");
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
